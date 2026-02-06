@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ffc1cc, #ffe4e1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  animation: fade 1.5s ease;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 26px;
+  border-radius: 30px;
+  border: none;
+  background: pink;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#msg {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff4d6d;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
